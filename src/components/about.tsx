@@ -72,9 +72,12 @@ export function About() {
             className="relative"
           >
             <div className="aspect-square rounded-3xl overflow-hidden glass p-2 relative z-10">
-               {/* Placeholder for professional image */}
-               <div className="w-full h-full bg-gradient-to-br from-primary-blue/20 to-primary-purple/20 rounded-2xl flex items-center justify-center">
-                  <User className="w-32 h-32 text-primary-blue/30" />
+               <div className="w-full h-full relative rounded-2xl overflow-hidden bg-gradient-to-br from-primary-blue/20 to-primary-purple/20">
+                  <img 
+                    src="/profile pic.jpeg" 
+                    alt="Jei Keshav S" 
+                    className="w-full h-full object-cover"
+                  />
                </div>
             </div>
             {/* Decorative elements */}
